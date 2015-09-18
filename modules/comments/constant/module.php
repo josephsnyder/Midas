@@ -18,8 +18,5 @@
  limitations under the License.
 =========================================================================*/
 
-
-define("OLDEST_FIRST",0);
-define("NEWEST_FIRST",1);
-
-?>
+define('COMMENTS_OLDEST_FIRST', 0);
+define('COMMENTS_NEWEST_FIRST', 1);
