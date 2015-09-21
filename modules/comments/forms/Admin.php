@@ -38,7 +38,6 @@ class Comments_Form_Admin extends Zend_Form
         $sort->setRequired(true);
         $sort->addValidator('NotEmpty', true);
 
-
         $this->addDisplayGroup(array($sort), 'global');
 
         $submit = new Zend_Form_Element_Submit('submit');
