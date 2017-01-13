@@ -5,7 +5,7 @@
 
 $(document).ready(function () {
     'use strict';
-    json.search.keyword = $("<div/>").html(json.search.keyword).text(); // remove html entity encoding
+    json.search.keyword = window.escape(json.search.keyword);
     $('#live_search_value').val($('#live_search').val());
     $('#live_search').val(json.search.keyword);
 
